@@ -35,6 +35,31 @@
 
 ---
 
+## Скриншоты
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center">
+<img src="screenshots/Библиотека.jpg" width="250"/>
+<br/><b>Библиотека</b>
+</td>
+<td align="center">
+<img src="screenshots/Инфо о манге.jpg" width="250"/>
+<br/><b>Информация о манге</b>
+</td>
+<td align="center">
+<img src="screenshots/Настройки.jpg" width="250"/>
+<br/><b>Настройки</b>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
 ## Архитектура
 
 ```
