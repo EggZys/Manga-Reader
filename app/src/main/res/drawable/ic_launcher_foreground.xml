@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer glow ring -->
+    <path
+        android:fillColor="#89B4FA"
+        android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+        android:fillAlpha="0.12" />
+
+    <!-- Book spine (center line) -->
+    <path
+        android:fillColor="#89B4FA"
+        android:pathData="M53,28L55,28L55,80L53,80Z" />
+
+    <!-- Left page (open book) -->
+    <path
+        android:fillColor="#CDD6F4"
+        android:pathData="M30,30L53,28L53,78L30,76Z" />
+
+    <!-- Right page (open book) -->
+    <path
+        android:fillColor="#BAC2DE"
+        android:pathData="M55,28L78,30L78,76L55,78Z" />
+
+    <!-- Left page lines (text simulation) -->
+    <path
+        android:fillColor="#A6ADC8"
+        android:pathData="M35,36L48,35L48,36.5L35,37.5Z"
+        android:fillAlpha="0.6" />
+    <path
+        android:fillColor="#A6ADC8"
+        android:pathData="M35,41L47,40L47,41.5L35,42.5Z"
+        android:fillAlpha="0.5" />
+    <path
+        android:fillColor="#A6ADC8"
+        android:pathData="M35,46L49,45L49,46.5L35,47.5Z"
+        android:fillAlpha="0.6" />
+    <path
+        android:fillColor="#A6ADC8"
+        android:pathData="M35,51L46,50L46,51.5L35,52.5Z"
+        android:fillAlpha="0.4" />
+
+    <!-- Manga panel on right page (top) -->
+    <path
+        android:fillColor="#89B4FA"
+        android:pathData="M59,32L74,33L74,48L59,49Z"
+        android:fillAlpha="0.3" />
+    <path
+        android:strokeColor="#89B4FA"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000"
+        android:pathData="M59,32L74,33L74,48L59,49Z" />
+
+    <!-- Manga panel on right page (bottom) -->
+    <path
+        android:fillColor="#CBA6F7"
+        android:pathData="M59,52L74,53L74,67L59,68Z"
+        android:fillAlpha="0.25" />
+    <path
+        android:strokeColor="#CBA6F7"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000"
+        android:pathData="M59,52L74,53L74,67L59,68Z" />
+
+    <!-- Small manga star/sparkle (top right) -->
+    <path
+        android:fillColor="#F9E2AF"
+        android:pathData="M72,26L73.5,24L75,26L73,25Z"
+        android:fillAlpha="0.8" />
+
+    <!-- Small manga star/sparkle (top left) -->
+    <path
+        android:fillColor="#A6E3A1"
+        android:pathData="M33,27L34,25.5L35,27L34,26.5Z"
+        android:fillAlpha="0.7" />
+
+    <!-- Book shadow -->
+    <path
+        android:fillColor="#11111B"
+        android:pathData="M30,76L53,78L55,78L78,76L78,79L30,77Z"
+        android:fillAlpha="0.3" />
+
+    <!-- Bookmark ribbon -->
+    <path
+        android:fillColor="#F38BA8"
+        android:pathData="M65,28L68,28L68,38L66.5,36L65,38Z"
+        android:fillAlpha="0.9" />
+</vector>

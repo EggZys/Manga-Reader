@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MangaReader" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#FF1E1E2E</item>
+        <item name="android:navigationBarColor">#FF11111B</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.MangaReader.Splash" parent="Theme.MangaReader">
+        <item name="android:windowBackground">#FF11111B</item>
+    </style>
+</resources>
